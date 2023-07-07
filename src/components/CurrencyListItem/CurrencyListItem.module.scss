@@ -1,0 +1,114 @@
+// standard styles
+body {
+  font-size: 17px;
+}
+
+// theme rules
+html[data-theme="dark"] {
+  --color-0: #fff;
+}
+html[data-theme="light"] {
+  --color-0: #000;
+}
+
+.imagesCurrency {
+  width: 33px;
+  height: 36px;
+  padding-left: 70px;
+}
+
+.rank {
+  padding-left: 65px;
+}
+
+.price_usd {
+  padding-left: 55px;
+}
+
+.percent_change_1h {
+  padding-left: 85px;
+}
+.percent_change_1h_gr {
+  composes: percent_change_1h;
+  color: #0ba407;
+}
+
+.percent_change_1h_re {
+  composes: percent_change_1h;
+  color: red;
+}
+.percent_change_1h_bl {
+  composes: percent_change_1h;
+  color: var(--color-0);
+  font-weight: bold;
+}
+
+.percent_change_24h {
+  padding-left: 185px;
+}
+.percent_change_24h_gr {
+  composes: percent_change_24h;
+  color: #0ba407;
+}
+.percent_change_24h_re {
+  composes: percent_change_24h;
+  color: red;
+}
+.percent_change_24h_bl {
+  composes: percent_change_24h;
+  color: var(--color-0);
+  font-weight: bold;
+}
+
+.percent_change_7d {
+  padding-left: 165px;
+}
+.percent_change_7d_gr {
+  composes: percent_change_7d;
+  color: #0ba407;
+}
+.percent_change_7d_re {
+  composes: percent_change_7d;
+  color: red;
+}
+.percent_change_7d_bl {
+  composes: percent_change_7d;
+  color: var(--color-0);
+  font-weight: bold;
+}
+
+.marketcap {
+  padding-left: 105px;
+}
+.crypto {
+  padding-left: 60px;
+  font-weight: bold;
+  color: #a6b0c3;
+}
+
+// adaptive (mobile)
+@media screen and (max-width: 768px) {
+  tr {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .rank,
+  .imagesCurrency,
+  .name,
+  .symbol,
+  .price_usd,
+  .percent_change_1h,
+  .percent_change_24h,
+  .percent_change_7d,
+  .marketcap,
+  .crypto {
+    padding-left: 0;
+  }
+  .rank{
+    display: none;
+  }
+}

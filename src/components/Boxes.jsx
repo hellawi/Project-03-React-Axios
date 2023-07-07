@@ -26,7 +26,7 @@ function Boxes({ currencies }) {
           <div className="box">
             <div className="headings">
               <img
-                src="./public/trending-nd.png"
+                src="/trending-nd.png"
                 alt="fire"
                 className="trending-img"
               />

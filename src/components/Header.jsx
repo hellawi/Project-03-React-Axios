@@ -8,7 +8,7 @@ function Header() {
       {/* responsible div 1 */}
       <div className="responsive-div">
         <div className="logo-box-res">
-          <img src="./public/logo.jpg" alt="logo" className="logo-h" />
+          <img src="/logo.jpg" alt="logo" className="logo-h" />
         </div>
         <div className="company-title-res">
           <h1 className="company">

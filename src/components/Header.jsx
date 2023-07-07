@@ -20,7 +20,7 @@ function Header() {
       </div>
 
       <div className="logo-box">
-          <img src="./public/logo.jpg" alt="logo" className="logo-h" />
+          <img src="logo.jpg" alt="logo" className="logo-h" />
       </div>
       <div className="company-title">
         <h1 className="company">

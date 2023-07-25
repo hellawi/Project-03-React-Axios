@@ -55,7 +55,7 @@ export default function SwipeableTemporaryDrawer() {
       </List>
       <Divider />
       <List>
-        {[<Link to="/" className='a'>{t('home')}</Link>, <Link to="/news" className='a'>{t('news')}</Link>, <a href='#footer' className='a'>{t('ourp')}</a>, <a href='#footer' className='a'>{t('contacts')}</a>].map((text, index) => (
+        {[<Link to="/" className='a'>{t('home')}</Link>, <Link to="/news" className='a'>{t('news')}</Link>, <a href='#rowh' className='a'>{t('ourp')}</a>, <a href='#footer' className='a'>{t('contacts')}</a>].map((text, index) => (
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemText primary={text} />

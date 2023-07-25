@@ -2,7 +2,7 @@ import React from "react";
 
 function Partners() {
   return (
-    <div className="rowh">
+    <div className="rowh" id="rowh">
       <h1 className="partners-heading">Our partners</h1>
       <div className="row">
         {/* binance */}
@@ -10,7 +10,7 @@ function Partners() {
           <div className="img">
             <a href="https://binance.com">
               <img
-                src="https://mass-images.pro/files/preview/3/08/23742e2161d4e6d4835d6601e0b45c5f.png?1689185286759"
+                src="/binance-darken.png"
                 alt=""
               />
             </a>
@@ -78,7 +78,7 @@ function Partners() {
           <div className="img">
             <a href="https://trustwallet.com">
               <img
-                src="https://mass-images.pro/files/preview/1/17/68c915b76318c0ce98dc94f35f48472f.png?1689652749720"
+                src="/tw-darken.png"
                 alt=""
               />
             </a>
@@ -100,7 +100,7 @@ function Partners() {
           <div className="img">
             <a href="https://kuna.ua">
               <img
-                src="https://mass-images.pro/files/preview/3/08/43408c64e93fb57c7bc6e8032c53936a.png?1689185796719"
+                src="/kuna-darken.png"
                 alt=""
               />
             </a>
@@ -117,7 +117,7 @@ function Partners() {
           <div className="img">
             <a href="https://dskbank.bg">
             <img
-              src="https://mass-images.pro/files/preview/3/08/53f847d550d51b8c14d0b9b442b53f5c.jpg?1689186594722"
+              src="/dsk-darken.png"
               alt=""
             />
             </a>
@@ -137,7 +137,7 @@ function Partners() {
           <div className="img">
             <a href="https://vodafone.com">
               <img
-                src="https://mass-images.pro/files/preview/3/08/c8f5fc63e69358ddf55534d772e82771.jpg?1689186023724"
+                src="/vodafone-darken.png"
                 alt=""
               />
             </a>
@@ -174,7 +174,7 @@ function Partners() {
           <div className="img">
             <a href="https://www.t-mobile.com/">
               <img
-                src="https://mass-images.pro/files/preview/3/08/0e282e7f2c8b6de3ba33acbf2af1480f.png?1689186203787"
+                src="/tmobile-darken.png"
                 alt=""
               />
             </a>

@@ -234,7 +234,7 @@ function Politics() {
         <li>VAT Number: 7544378383498238</li>
       </ul>
       <footer className="footer-terms">
-        <img src="../public/logo.jpg" alt="" />
+        <img src="/logo.jpg" alt="" />
         <p>Copyright ©CoinMarketCrypto. All rights reserved.</p>
       </footer>
     </div>

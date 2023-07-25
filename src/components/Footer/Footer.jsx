@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-left">
 
         <a href="#">
-          <img src="./public/logo.jpg" alt="" className="logo-f" />
+          <img src="/logo.jpg" alt="" className="logo-f" />
         </a>
         
         <p className="footer-company-name">

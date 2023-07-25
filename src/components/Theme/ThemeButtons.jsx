@@ -12,8 +12,8 @@ function ThemeButtons() {
     const { t } = useTranslation()
   return (
     <div>
-        <button className="theme-01" onClick={handleLThemeClick}>{t('light')}</button>
-        <button className="theme-02" onClick={handleDThemeClick}>{t('dark')}</button>
+        <button className="theme theme-01" onClick={handleLThemeClick}>{t('light')}</button>
+        <button className="theme theme-02" onClick={handleDThemeClick}>{t('dark')}</button>
     </div>
   )
 }

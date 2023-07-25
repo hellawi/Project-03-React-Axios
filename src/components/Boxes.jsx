@@ -45,21 +45,21 @@ function Boxes({ currencies }) {
               </li>
 
               <li className="list-item">
-                <p className="list-item-number">2</p>
+                <p className="list-item-number">18</p>
                 <img src="https://cryptologos.cc/logos/shiba-inu-shib-logo.png" alt="" className="list-item-img" />
                 <p className="list-item-nameCurrency">SHIB</p>
                 <p className="list-item-priceUsd">23,47 $</p>
               </li>
 
               <li className="list-item">
-                <p className="list-item-number">3</p>
+                <p className="list-item-number">59</p>
                 <img src="https://icodrops.com/wp-content/uploads/2017/12/oCw2s3GI_400x400.jpg" alt="" className="list-item-img" />
                 <p className="list-item-nameCurrency">CRO</p>
                 <p className="list-item-priceUsd">0,96 $</p>
               </li>
 
               <li className="list-item">
-                <p className="list-item-number">4</p>
+                <p className="list-item-number">75</p>
                 <img src="https://cryptologos.cc/logos/huobi-token-ht-logo.png" alt="" className="list-item-img" />
                 <p className="list-item-nameCurrency">HT</p>
                 <p className="list-item-priceUsd">1,84 $</p>

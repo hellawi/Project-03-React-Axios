@@ -1,6 +1,8 @@
 import CurrencyListItem from "./CurrencyListItem/CurrencyListItem"
 import Footer from "./Footer/Footer"
+import Partners from "./Partners"
 
+// currencies MAP
 function CurrencyList({ currencies }) {
   return (
     <div>
@@ -19,6 +21,7 @@ function CurrencyList({ currencies }) {
             />
           ))}
         </table>
+        <Partners />
         <Footer />
     </div>
   )

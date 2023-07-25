@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next"
 
-function Currencies2() {
+function Currencies2({ id }) {
   const { t } = useTranslation()
   return (
-    <div>
+    <div id={id} >
         <hr />
         <tr className="currencies-continue">
           <td className="heading-table heading-table-1">#</td>

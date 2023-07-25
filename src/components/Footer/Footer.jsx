@@ -1,9 +1,10 @@
 import { useTranslation } from "react-i18next";
 import "./Footer.scss";
+import { Link } from "react-router-dom";
 function Footer() {
   const { t } = useTranslation();
   return (
-    <footer className="footer-distributed">
+    <footer className="footer-distributed" id="footer">
       <div className="footer-left">
 
         <a href="#">
@@ -15,6 +16,7 @@ function Footer() {
           <br />
           {t("vseprava")} © 2023
         </p>
+        <Link to="/terms" className="link-terms">Terms of use and privacy</Link>
       </div>
 
       <div className="footer-center">

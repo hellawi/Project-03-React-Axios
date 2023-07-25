@@ -82,7 +82,7 @@ export const currencyIcons = {
     "CSPR": "https://cryptologos.cc/logos/casper-cspr-logo.png",
     "RPL": "https://delegates.rocketpool.net/assets/icon-5d21cbe1.png",
     "KAVA": "https://cryptologos.cc/logos/kava-kava-logo.png",
-    "XDCE": null,
+    "XDCE": "https://altcoinsbox.com/wp-content/uploads/2023/03/XDC-logo-.png",
     "FEI": "https://cryptologos.cc/logos/fei-usd-fei-logo.png",
     "FLEX": "https://altcoinsbox.com/wp-content/uploads/2023/04/coinflex-logo.png",
     "SUI": "https://s2.coinmarketcap.com/static/img/coins/200x200/20947.png",
@@ -92,6 +92,7 @@ export const currencyIcons = {
     "ZIL": "https://cryptologos.cc/logos/zilliqa-zil-logo.png",
     "DYDX": "https://cryptologos.cc/logos/dydx-dydx-logo.png",
     "LRC": "https://cryptologos.cc/logos/loopring-lrc-logo.png",
+    "XEM": "https://cdn.coinranking.com/Bkvu9rOOZ/xem.svg?size=34x34",
     "GNO": "https://cryptologos.cc/logos/gnosis-gno-gno-logo.png",
     "BAT": "https://cryptologos.cc/logos/basic-attention-token-bat-logo.png",
     "ENJ": "https://cryptologos.cc/logos/enjin-coin-enj-logo.png",
@@ -107,5 +108,6 @@ export const currencyIcons = {
     "CVX": "https://cryptologos.cc/logos/convex-finance-cvx-logo.png",
     "CELO": "https://cryptologos.cc/logos/celo-celo-logo.png", 
     "YFI": "https://thegivingblock.com/wp-content/uploads/2021/07/Yearn-Finance-Logo.png",
+    "TFUEL": "https://cryptologos.cc/logos/theta-fuel-tfuel-logo.png",
     "CAKE": "https://cryptologos.cc/logos/pancakeswap-cake-logo.png"
 }

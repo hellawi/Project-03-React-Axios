@@ -1,3 +1,4 @@
+import SwipeableTemporaryDrawer from "./Menu/Menu";
 import LanguageSwitch from "./LanguageSwitch/LanguageSwitch";
 import ThemeButtons from "./Theme/ThemeButtons";
 
@@ -19,9 +20,11 @@ function Header() {
         </div>
       </div>
 
+      {/* pc divs */}
       <div className="logo-box">
           <img src="logo.jpg" alt="logo" className="logo-h" />
       </div>
+      
       <div className="company-title">
         <h1 className="company">
           <span className="coin">Coin</span>
@@ -29,20 +32,13 @@ function Header() {
           <span className="crypto">Crypto</span>
         </h1>
       </div>
-      
-      {/* responsible div 2 */}
-      <div className="responsive-div-2">
-        <div className="theme">
-          <ThemeButtons />
-        </div>
 
-        <div className="aaa">
-          <LanguageSwitch />
-        </div>
+      {/* lng-switch */}
+      <div className="lng-switch">
+        <LanguageSwitch />
       </div>
-
-      <ThemeButtons />
-      <LanguageSwitch />
+      {/* hamburger */}
+      <SwipeableTemporaryDrawer />
     </header>
   );
 }

@@ -1,0 +1,166 @@
+// const selectSymbols = currencies.map((currency) => currency.symbol);
+  // const res = currencies.map((currency) => currency.symbol);
+  // const selectC = currencies.map((currency) => currency.price_usd);
+  // const sel1 = (
+  //   <select name="" id="sel1">
+  //     <option value="">USD</option>
+  //     <option value="">EUR</option>
+  //     {selectSymbols.map((symbol) => (
+  //       <option key={symbol} value={symbol}>
+  //         {symbol}
+  //       </option>
+  //     ))}
+  //   </select>
+  // );
+  // const sel2 = (
+  //   <select name="" id="sel2">
+  //     <option value="">USD</option>
+  //     <option value="">EUR</option>
+  //     {selectSymbols.map((symbol) => (
+  //       <option key={symbol} value={symbol}>
+  //         {symbol}
+  //       </option>
+  //     ))}
+  //   </select>
+  // );
+  // let result = 0.00
+
+
+<!-- HTML !-->
+<button class="button-3" role="button">Button 3</button>
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+onClick={toggleDrawer(anchor, true)}
+
+
+
+{/* {error && (
+        <Alert severity="error">
+          Network Error! Сheck your internet connection. If that doesn't work,
+          try again later, we might be having problems on the server.
+        </Alert>
+      )}
+      {loading && (
+        <div className="background">
+          <div className="spinner">
+            <Loading />
+          </div>
+        </div>
+      )}
+      <Header />
+
+      <main>
+        <section className="hero">
+          <div className="container">
+            <h1 className="hero_title">
+                <TypewriterComponent 
+                onInit={(typewriter) => {
+                typewriter.typeString('Open the world of crypto now!')
+                .callFunction(() => {
+                  console.log('Done!')
+                })
+                .pauseFor(writerDelay)
+                .deleteAll()
+                .callFunction(() => {
+                  console.log("Cleaned!")
+                })
+                .start()
+              }}
+              />
+            </h1>
+            <button className="curr-btn">
+              <a href="#currencies" className="curr-link">
+                View currencies now
+              </a>
+            </button>
+          </div>
+        </section>
+        <Boxes currencies={currencies} />
+
+        <div className="currencies-start">
+          <div className="currency-heading">
+            <h1 className="currency-heading-h1">{t("currencyH")}</h1>
+          </div>
+          <SearchBar
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+        </div>
+        
+        <Currencies2 id="currencies" />
+      </main>
+      <CurrencyList currencies={filteredCurrencies} /> */}
+
+
+       axios
+          .get("https://newsdata.io/api/1/news?apikey=pub_26653983d05ca317d96d1db2b9031e86f0c9d&q=xrp")
+          .then((res) => {
+            setArticles(res.data.results)
+            console.log(articles)
+          })
+
+
+          // const [select, setSelect] = useState(init)
+  // function init(){
+  //   const tasks = localStorage.getItem('select');
+  //   if(tasks){
+  //     return JSON.parse(tasks)
+  //   } else {
+  //     return []
+  //   }
+  // }
+  // useEffect(() => {
+  //   localStorage.setItem('select', JSON.stringify(select))
+  // }, [])

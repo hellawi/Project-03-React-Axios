@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./SearchBar.scss";
+
 function SearchBar({ value, onChange }) {
   const { t } = useTranslation()
   return (

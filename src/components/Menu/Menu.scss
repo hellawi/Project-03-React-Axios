@@ -1,0 +1,44 @@
+.label {
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-right: 35px;
+  }
+
+  .label:hover {
+    cursor: pointer;
+  }
+
+  .label span {
+      top: 15px;
+  }
+
+  .label span,
+  .label span::before,
+  .label span::after {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 2px;
+      background: #fff;
+      position: absolute;
+      right: 0;
+  }
+
+  .label span::before {
+      top: -8px;
+  }
+
+  .label span::after {
+      top: 8px;
+  }
+  .a{
+    text-decoration: none;
+    color: #000;
+  }
+  .menu-heading{
+   text-align: center;
+   font-weight: bold;
+   font-size: 17.5px;
+  }

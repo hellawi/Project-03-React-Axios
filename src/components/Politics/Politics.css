@@ -1,0 +1,20 @@
+.terms {
+    font-family: sans-serif;
+}
+.heading {
+    text-align: center;
+}
+.pp {
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0px 25px 25px 25px;
+}
+.footer-terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
